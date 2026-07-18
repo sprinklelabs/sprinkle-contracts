@@ -1,0 +1,22 @@
+{
+  "chainId": 4663,
+  "chainName": "Robinhood Chain",
+  "rpc": "https://rpc.mainnet.chain.robinhood.com",
+  "explorer": "https://robinhoodchain.blockscout.com",
+  "compiler": "0.8.36+commit.8a079791",
+  "evmVersion": "cancun",
+  "optimizer": false,
+  "contracts": {
+    "SprinkleCredits": {
+      "address": "0xEc7d54eF36dA5cbdf5249Ba30683259009eb69ed",
+      "sourcify": "https://sourcify.dev/#/lookup/0xEc7d54eF36dA5cbdf5249Ba30683259009eb69ed",
+      "explorer": "https://robinhoodchain.blockscout.com/address/0xEc7d54eF36dA5cbdf5249Ba30683259009eb69ed"
+    },
+    "SprinkleDataRegistry": {
+      "address": "0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582",
+      "addressLegacy": "0xD78998ae7467Fd34dB8ea9a108e1DE6Dc8A4aCE3",
+      "sourcify": "https://sourcify.dev/#/lookup/0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582",
+      "explorer": "https://robinhoodchain.blockscout.com/address/0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582"
+    }
+  }
+}
