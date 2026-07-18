@@ -1,26 +1,20 @@
 # Sprinkle Contracts
 
-Smart contracts powering the Sprinkle platform — deployed on [Robinhood Chain](https://robinhoodchain.blockscout.com) (Chain ID 4663).
+Smart contracts powering the Sprinkle platform, deployed on [Robinhood Chain](https://robinhoodchain.blockscout.com) (Chain ID 4663).
 
 ## Contracts
 
-### SprinkleCredits (`cSPRINK`)
+### SprinkleCredits (cSPRINK)
 ERC-20 credit token used for on-chain billing. Users purchase credits and the platform deducts them per API call.
 
 - **Mainnet:** [`0xEc7d54eF36dA5cbdf5249Ba30683259009eb69ed`](https://robinhoodchain.blockscout.com/address/0xEc7d54eF36dA5cbdf5249Ba30683259009eb69ed)
 - **Verified:** [Sourcify](https://sourcify.dev/#/lookup/0xEc7d54eF36dA5cbdf5249Ba30683259009eb69ed)
 
 ### SprinkleDataRegistry
-On-chain registry mapping public keys and user metadata for the relay network.
+On-chain registry that anchors keccak256 hashes of messages, files, and tasks. Content stays in the private database; the hash on-chain is the immutable proof of existence.
 
-- **Mainnet (current):** [`0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582`](https://robinhoodchain.blockscout.com/address/0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582)
-- **Mainnet (legacy):** [`0xD78998ae7467Fd34dB8ea9a108e1DE6Dc8A4aCE3`](https://robinhoodchain.blockscout.com/address/0xD78998ae7467Fd34dB8ea9a108e1DE6Dc8A4aCE3)
+- **Mainnet:** [`0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582`](https://robinhoodchain.blockscout.com/address/0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582)
 - **Verified:** [Sourcify](https://sourcify.dev/#/lookup/0xB32fcAFaD834a9Ef952A2108be0EFFA62B99F582)
-
-### SprinklePayments
-ETH payment receiver — collects funds and sweeps to treasury.
-
-- **Status:** Not yet deployed
 
 ## Chain
 
